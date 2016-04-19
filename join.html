@@ -41,7 +41,20 @@
 			<a href="contact.html">Contact</a>
 		</nav> 
 	</div>
-	<p>Sign-up Form here</p>
+	
+	<br>
+	<form method="post" action="members.php"> 
+		<table bgcolor=#bbbbbb align=center> 
+			<tr><td colspan=2><strong>Please fill out the following form:</strong></td></tr> 
+			<tr><td>Name:</td><td><input size=25 name="Name"></td></tr> 
+			<tr><td> Email:</td><td><input size=25 name="Email"></td></tr> 
+			<tr><td>Company:</td><td><input size=25 name="Company"></td></tr> 
+			<tr><td>Phone:</td><td><input size=25 name="Phone"></td></tr> 
+			<tr><td>Subscribe to<br> mailing list:</td><td><input type="radio" name="list" value="No"> No<br> <input type="radio" name="list" value="Yes" checked> Yes<br></td></tr> 
+
+			<tr><td colspan=2 align=center><input type=submit name="send" value="Submit"></td></tr> 
+		</table> 
+	</form> 
 
 </body>
 </html>
