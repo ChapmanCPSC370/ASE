@@ -1,0 +1,64 @@
+   html {
+	background-color: #555;
+	height: 100%;
+   }
+   body {
+	background-color: #bbb;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: auto;
+	border: 4px solid #222;
+	}
+	
+  #header {
+	background: #999;
+	padding-top: 20px;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	border: 3px solid #222
+  }
+  
+  #header .logo_container {
+	background-color: #446;
+	width: 100%;
+  }
+  
+  #header nav {
+    border-bottom: 1px grey dashed;
+	padding-left: 30px;
+	padding-right: 30px;
+  }
+  #header nav a{
+	background: transparent;
+	color: #000;
+	padding: 5px;
+  }
+  
+  #header nav a:hover {
+	background-color: #224;
+	color: white;
+	border: solid black 2px;
+  }
+  
+  #top_photo {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	background-color: #224;
+  }
+  
+  #top_photo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+  }
+  
+  .block {
+	margin: 10px;
+  }
+  .block h2 {
+	display: block;
+	width: auto;
+	border: 2px solid black;
+  }
